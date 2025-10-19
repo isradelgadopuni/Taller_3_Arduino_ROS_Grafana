@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 1s
+
+scrape_configs:
+  - job_name: 'ros_temperature'
+    static_configs:
+      - targets: ['wsn_cont_nodos_2_t3_cl:8000']

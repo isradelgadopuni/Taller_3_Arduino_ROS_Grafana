@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>sensor_program</name>
+  <name>sensor_serial</name>
   <version>0.0.1</version>
-  <description>Paquete del reto: sensor, lector y plotter.</description>
+  <description>Paquete del reto: sensor, processor y monitor.</description>
 
   <maintainer email="isra-5-delgado@outlook.com">Israel Delgado</maintainer>
   <license>MIT</license>

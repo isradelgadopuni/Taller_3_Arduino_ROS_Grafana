@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'sensor_program'
+package_name = 'sensor_serial'
 
 setup(
     name=package_name,
@@ -14,14 +14,15 @@ setup(
     zip_safe=True,
     maintainer='Israel Delgado',
     maintainer_email='isra-5-delgado@outlook.com',
-    description='Nodo sensor + lector + plotter (reto).',
+    description='Nodo sensor + processor + monitor.',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sensor_node = sensor_program.sensor_node:main',
-            'reader_node = sensor_program.reader_node:main',
-            'plotter_node = sensor_program.plotter_node:main',
+            'sensor_node = sensor_serial.sensor_node:main',
+            'processor_node = sensor_serial.processor_node:main',
+            'monitor_node = sensor_serial.monitor_node:main',
+            'exporter_node = sensor_serial.exporter_node:main',
         ],
     },
 )
